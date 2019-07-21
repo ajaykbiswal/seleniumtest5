@@ -1,0 +1,3 @@
+ChromeDriver=D:\\Chrome\\chromedriver.exe
+URL=https://www.freecrm.com
+ExcelPath=D:\\SeleniumTestAutomation\\Framework\\configuration\\InputData.xlsx

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="Command line test b029c3a6-b325-4745-ae7d-da8284930f7a(failed)">
+    <classes>
+      <class name="basicPrograms.Issue1020TestclassSample">
+        <methods>
+          <include name="testMethod" invocation-numbers="0 2 4 6 8"/>
+        </methods>
+      </class> <!-- basicPrograms.Issue1020TestclassSample -->
+    </classes>
+  </test> <!-- Command line test b029c3a6-b325-4745-ae7d-da8284930f7a(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

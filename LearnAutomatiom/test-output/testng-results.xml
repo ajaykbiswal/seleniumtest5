@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SaveTestNGResultToExcel" duration-ms="31938" started-at="2018-12-31T11:11:41Z" finished-at="2018-12-31T11:12:13Z">
+    <groups>
+    </groups>
+    <test name="SaveTestNGResultToExcel" duration-ms="31938" started-at="2018-12-31T11:11:41Z" finished-at="2018-12-31T11:12:13Z">
+      <class name="lib.SaveTestNGResultToExcelO">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:lib.SaveTestNGResultToExcelO@5e3a8624]" name="suiteSetUp" is-config="true" duration-ms="2466" started-at="2018-12-31T16:41:57Z" finished-at="2018-12-31T16:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:lib.SaveTestNGResultToExcelO@5e3a8624]" name="LaunchWebsite" duration-ms="8143" started-at="2018-12-31T16:41:59Z" description="Opens the TestNG Demo Website for Login Test" finished-at="2018-12-31T16:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:lib.SaveTestNGResultToExcelO@5e3a8624]" name="FillLoginDetails" duration-ms="1535" started-at="2018-12-31T16:42:08Z" description="Fill the Login Details" finished-at="2018-12-31T16:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="FAIL" signature="DoLogin()[pri:3, instance:lib.SaveTestNGResultToExcelO@5e3a8624]" name="DoLogin" duration-ms="2759" started-at="2018-12-31T16:42:09Z" description="Perform Login" finished-at="2018-12-31T16:42:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.SaveTestNGResultToExcelO.DoLogin(SaveTestNGResultToExcelO.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:lib.SaveTestNGResultToExcelO@5e3a8624]" name="suiteTearDown" is-config="true" duration-ms="1380" started-at="2018-12-31T16:42:12Z" finished-at="2018-12-31T16:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- lib.SaveTestNGResultToExcelO -->
+      <class name="lib.SaveTestNGResultToExcel">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:lib.SaveTestNGResultToExcel@1bce4f0a]" name="suiteSetUp" is-config="true" duration-ms="3651" started-at="2018-12-31T16:41:41Z" finished-at="2018-12-31T16:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:lib.SaveTestNGResultToExcel@1bce4f0a]" name="LaunchWebsite" duration-ms="6338" started-at="2018-12-31T16:41:45Z" description="Opens the TestNG Demo Website for Login Test" finished-at="2018-12-31T16:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:lib.SaveTestNGResultToExcel@1bce4f0a]" name="FillLoginDetails" duration-ms="1460" started-at="2018-12-31T16:41:51Z" description="Fill the Login Details" finished-at="2018-12-31T16:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="FAIL" signature="DoLogin()[pri:3, instance:lib.SaveTestNGResultToExcel@1bce4f0a]" name="DoLogin" duration-ms="2591" started-at="2018-12-31T16:41:53Z" description="Perform Login" finished-at="2018-12-31T16:41:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.SaveTestNGResultToExcel.DoLogin(SaveTestNGResultToExcel.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:lib.SaveTestNGResultToExcel@1bce4f0a]" name="suiteTearDown" is-config="true" duration-ms="1568" started-at="2018-12-31T16:41:55Z" finished-at="2018-12-31T16:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- lib.SaveTestNGResultToExcel -->
+    </test> <!-- SaveTestNGResultToExcel -->
+  </suite> <!-- SaveTestNGResultToExcel -->
+</testng-results>
